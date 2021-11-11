@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+int hieu(int a, int b);
 {
 	int a, b;
 	char phepToan;
@@ -10,6 +11,12 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	if(phepToan=="-"){
+		hieu(a,b);
+	}
 	system("pause");
 	return 0;
+}
+int hieu(int a, int b){
+	return (a-b);
 }
