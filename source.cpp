@@ -23,7 +23,6 @@ int tich(int a, int b);
 
 	if(phepToan=="+"){
 		tong(a,b);
-
 	}
 	if(phepToan== "*" ){
 		tich(a,b)
