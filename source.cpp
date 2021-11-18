@@ -6,6 +6,8 @@ int hieu(int a, int b);
 
 int tong(int a, int b);
 
+int tich(int a, int b);
+
 {
 	int a, b;
 	char phepToan;
@@ -15,22 +17,24 @@ int tong(int a, int b);
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
-
 	if(phepToan=="-"){
 		hieu(a,b);
 
-	if(phepToan=="+"){ss
+	if(phepToan=="+"){
 		tong(a,b);
-
+	}
+	if(phepToan== "*" ){
+		tich(a,b)
 	}
 	system("pause");
 	return 0;
 }
-
 int hieu(int a, int b){
 	return (a-b);
-
+}
 int tong(int a, int b){
 	return (a+b);
-
+}
+int tich(int a, int b){
+	return (a*b);
 }
