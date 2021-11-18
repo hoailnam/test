@@ -17,7 +17,6 @@ int tich(int a, int b);
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
-
 	if(phepToan=="-"){
 		hieu(a,b);
 
@@ -30,7 +29,6 @@ int tich(int a, int b);
 	system("pause");
 	return 0;
 }
-
 int hieu(int a, int b){
 	return (a-b);
 }
