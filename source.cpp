@@ -38,3 +38,9 @@ int tong(int a, int b){
 int tich(int a, int b){
 	return (a*b);
 }
+bool chanLe( int a){
+	if(a%2==0){
+		return false;
+	}
+	return true;
+}
